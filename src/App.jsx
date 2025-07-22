@@ -11,6 +11,7 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
+import myPic from "./images/pic.png";
 
 import "./styles.css";
 
@@ -46,6 +47,7 @@ const App = () => {
       <About />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
+      <img src={myPic} alt="..." />
     </div>
   );
 };
