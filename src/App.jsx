@@ -46,6 +46,7 @@ const App = () => {
       <About />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
+      <img src="./images/pic.jpg" alt="..." />
     </div>
   );
 };
