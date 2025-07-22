@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://github.com/microsoft/codespaces-teaching-template-js#readme",
+  "homepage": "https://Seikh05.github.io/portfolio_demo/",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://Seikh05.github.io/portfolio_demo/'",
+    "build-gh": "parcel build --public-url '/portfolio_demo/'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
